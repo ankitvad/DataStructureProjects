@@ -5,12 +5,22 @@
 <h1>Description:</h1>
 <br>
 <p>
-Contains:<br>
-1.) Sieve_Of_Eratothenes:<br>A project that uses the sieve algorithm, and uses data containers such as Linked List, Array and a Binary Search Tree<br>and, calculates the time for upper-bound insertions and deletions, and also plots the graph, proving for what vaues, which method/container<br>is better and more efficient.<br>
 
-2.) Batman and Joker:<br>
-It's a modification to the Cos and Robbers/Maze-Theory game.<br>It asks users for the bstrution points in the maze, and the start and end point, ie. The position for Batman and Joker, after this it uses Breadth_First_Search / Depth_First_Search, to show if a path exists or not, and the use Djikstras to calculate the shortest distane, and then prints that.
-<br>:It also contains a ifty C++ loader, that can be seen to check real-life System-Memory utilisation(quite-memory-intensive).
-<br>PS: Unfortunately, i have'nt added a function and filestream techniques to automatically take in the obstructions<br>so the larger the matrix size, more intense and time-consuming is the insertions. But i will work on it, as soon as i get time<-maybe->..
+Sieve Of Eratothenes: Comparing Prime Number Generation Algorithm and Container Data Structure for Different Number input Upper Bounds. 
+<br>
+Creating the Prime Number Generation Algorithm by the Nested-For loop Tehnique, and, Sieve of Eratosthenes approach and check for their optimality(..W.R.T time-taken)<br>
+for different Upper Bound I/P numbers. Also, after attaining the optimality consider different Container(Data Structure) structures<br>
+for storing the Number Set, namely a Linked List and a Binary Search Tree and then check for their Optimality(..WRT time-taken). 
+
+Batman and Joker:
+Creating a Static/Algorithm Generated Cops and Robber game. it generates whether in a grid/maze(..user generated) consisting of open spaces<br>
+as well as obstacles, there exists a path between Batman ad Joker, and if it does, what is the optimal/shortest path<br>
+to take(..considering that the destination ie. Joker stays still in the field.).
+The Program makes use of Map, Templates and Vector STL continers. It checks for the path availability through BFS and DFS techniques; and, calculates<br>
+the path through Djikstras Algorithm.<br>
+
+TO DO: In Batman and Joker: create a random number generation with which to automatically generate a matrix/grid.
+
+
 </p>
 </body>
