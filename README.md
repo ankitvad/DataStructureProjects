@@ -1,8 +1,5 @@
-<head>
-<title>DataStructure Projects</title>
-</head>
-<body>
-<h1>Description:</h1>
+<h2>DataStructure Projects</h2>
+<h3>Description:</h3>
 <br>
 <p>
 
@@ -20,7 +17,4 @@ The Program makes use of Map, Templates and Vector STL continers. It checks for 
 the path through Djikstras Algorithm.<br>
 
 TO DO: In Batman and Joker: create a random number generation with which to automatically generate a matrix/grid.
-
-
 </p>
-</body>
